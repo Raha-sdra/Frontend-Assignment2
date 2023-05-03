@@ -1,0 +1,60 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+input {
+  display: block;
+  margin-top: 10px;
+}
+
+.info {
+  padding: 20px;
+  background-color: #eee;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+  display: block;
+}
+
+.screeningContainer {
+  display: inline-block;
+  width: 20%;
+  margin: auto;
+  padding: 20px;
+  height: 600px;
+}
+
+.categoryContainer {
+  height: 120px;
+}
+
+.posterImage {
+  width: 100%;
+  /* height: 300px; */
+  display: block;
+  border-radius: 15px;
+}
+
+.movieTitle {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.screeningTime {
+  width: 100%;
+  font-weight: normal;
+  text-align: center;
+}
+
+.screeningsContainer {
+  width: 100%;
+  /* padding: 20px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
